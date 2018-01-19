@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.10'
+gem 'rails', '5.0'
 gem 'pg', '~> 0.15'
 gem 'acts_as_list'
 gem 'bootstrap', '~> 4.0.0'
@@ -28,7 +28,7 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
-  gem 'webpacker', github: 'rails/webpacker' 
+  gem 'webpacker', '~> 3.2'
 end
 
 group :production do

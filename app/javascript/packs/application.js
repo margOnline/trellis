@@ -10,7 +10,7 @@
 import Vue from 'vue/dist/vue.esm'
 import App from '../app.vue'
 
-document.addEventListener("turbolinks:load", function() {
+document.addEventListener("ready", function() {
   var element = document.querySelector("#boards")
   if (element != undefined) {
     const app = new Vue({
@@ -22,4 +22,4 @@ document.addEventListener("turbolinks:load", function() {
       components: { App }
     })
   }
-})
+});
